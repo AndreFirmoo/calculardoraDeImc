@@ -7,7 +7,6 @@ class ImcModel{
     }
 
     get imc(){
-
         return  this._peso / (this._altura * this._altura)
     }
 

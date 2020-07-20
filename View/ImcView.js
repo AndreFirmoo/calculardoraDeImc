@@ -6,7 +6,7 @@ class ImcView {
     
     template(modelo){
         return `
-            ${modelo.imc.map(imc =>{
+            ${modelo.imc.map(imc => {
                 return `
                 <tr class="table--information-tr">
                     <td class="table--information-td">${imc.nome}</td>
